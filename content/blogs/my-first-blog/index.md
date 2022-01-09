@@ -1,7 +1,8 @@
 ---
 title: My first blog
 description: Hello World, once again...
-date: 9-1-2022
+category: shiz-post
+date: 2022-01-09
 ---
 
 ## My first time using Gatsby

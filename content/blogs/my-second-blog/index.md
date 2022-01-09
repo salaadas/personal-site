@@ -1,7 +1,8 @@
 ---
 title: My second blog
 description: Using mac on a daily
-date: 9-1-2022
+category: shiz-post
+date: 2022-01-09
 ---
 
 ## I know, I know, Linux is miles better

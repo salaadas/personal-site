@@ -25,7 +25,33 @@ module.exports = {
         path: `${__dirname}/content/assets`,
       },
     },
-    'gatsby-transformer-remark',
+    {
+      resolve: 'gatsby-transformer-remark',
+      options: {
+        plugins: [
+          {
+            resolve: 'gatsby-remark-images',
+            options: {
+              maxWidth: 690,
+              showCaptions: true,
+            },
+          },
+          {
+            resolve: 'gatsby-remark-video',
+            options: {
+              width: '100%',
+              height: 'auto',
+              preload: 'auto',
+              muted: true,
+              autoplay: true,
+              playsinline: true,
+              controls: true,
+              loop: true,
+            },
+          },
+        ],
+      },
+    },
     'gatsby-plugin-image',
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
