@@ -1,13 +1,16 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: 'https://www.yourdomain.tld',
-    title: 'My Gatsby Site',
+    title: `salaadas's personal site`,
+    description: 'The dumpster fire for all things content',
+    author: 'salaadas',
   },
   plugins: [
-    'gatsby-plugin-image',
-    'gatsby-plugin-mdx',
-    'gatsby-plugin-sharp',
-    'gatsby-transformer-sharp',
+    {
+      resolve: 'gatsby-plugin-mdx',
+      options: {
+        extensions: [`.md`, `.mdx`],
+      },
+    },
     {
       resolve: 'gatsby-source-filesystem',
       options: {
@@ -22,5 +25,10 @@ module.exports = {
         path: `${__dirname}/content/assets`,
       },
     },
+    'gatsby-transformer-remark',
+    'gatsby-plugin-image',
+    'gatsby-plugin-sharp',
+    'gatsby-transformer-sharp',
+    `gatsby-plugin-postcss`,
   ],
 };
