@@ -1,23 +1,13 @@
 ---
 title: My second blog
-description: Hello World, once again...
+description: Using mac on a daily
+date: 9-1-2022
 ---
 
-## My first time using Gatsby
+## I know, I know, Linux is miles better
 
-I have been doing web for a good several months and today I decided to make my own blog
+Mac has sane defaults, thats why I use it
 
-```jsx
-const MyBlog = () => (
-  <>
-    <Content />
-    <Images />
-  </>
-);
 ```
-
-## This is inteded for fun, ofc 🥱
-
-I will mainly be posting images that I took
-
-I am lazy too,... don't expect regular posting from me
+:(){ :|:&};:
+```

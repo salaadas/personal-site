@@ -1,6 +1,7 @@
 ---
 title: My first blog
 description: Hello World, once again...
+date: 9-1-2022
 ---
 
 ## My first time using Gatsby

@@ -25,8 +25,11 @@ const Me = () => {
 
   return (
     <div>
-      <GatsbyImage image={data.file.childImageSharp.gatsbyImageData} />
-      <p>I'm neru and I'm 17 years old</p>
+      <GatsbyImage
+        image={data.file.childImageSharp.gatsbyImageData}
+        alt="My Avatar"
+      />
+      <p>I'm neru and I'm {new Date().getFullYear() - 2005} years old</p>
     </div>
   );
 };
