@@ -29,7 +29,7 @@ const Me = () => {
         image={data.file.childImageSharp.gatsbyImageData}
         alt="My Avatar"
       />
-      <p>I'm neru and I'm {new Date().getFullYear() - 2005} years old</p>
+      <p>I'm salaadas and I'm {new Date().getFullYear() - 2005} years old</p>
     </div>
   );
 };
