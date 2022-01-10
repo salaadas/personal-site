@@ -2,10 +2,31 @@
 @tailwind components;
 @tailwind utilities;
 
-.link {
-  @apply underline decoration-2 decoration-sky-600 hover:decoration-blue-400;
+html {
+  @apply bg-[#1f1f29];
 }
 
-.linked-header {
-  @apply shadow-none;
+p {
+  @apply text-sky-50;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply text-orange-300;
+}
+
+a {
+  @apply text-orange-200;
+}
+
+.link {
+  @apply underline decoration-2 decoration-sky-600 hover:decoration-sky-400;
+}
+
+a.linked-header {
+  @apply shadow-none fill-sky-100;
 }
