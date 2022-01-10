@@ -28,6 +28,7 @@ module.exports = {
             resolve: `gatsby-remark-autolink-headers`,
             options: {
               className: `linked-header`,
+              isIconAfterHeader: true,
             },
           },
           'gatsby-remark-prismjs',
