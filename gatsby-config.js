@@ -67,6 +67,7 @@ module.exports = {
     'gatsby-transformer-sharp',
     `gatsby-plugin-postcss`,
     'gatsby-plugin-twitter',
+    `gatsby-plugin-react-helmet`,
     {
       resolve: 'gatsby-plugin-typography',
       options: {

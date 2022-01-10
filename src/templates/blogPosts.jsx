@@ -2,6 +2,7 @@ import { graphql, Link } from 'gatsby';
 import { MDXRenderer } from 'gatsby-plugin-mdx';
 import React from 'react';
 import Layout from '../components/layout';
+import Seo from '../components/seo';
 import { rhythm, scale } from '../utils/typography';
 
 const BlogPosts = ({ data, location }) => {
@@ -10,6 +11,10 @@ const BlogPosts = ({ data, location }) => {
 
   return (
     <Layout location={location} title={siteTitle}>
+      <Seo
+        title={post.frontmatter.title}
+        description={post.frontmatter.description || post.excerpt}
+      />
       <Link to="/">🏠 ( . -.)</Link>
       <article>
         <header>
@@ -54,6 +59,7 @@ export const pageQuery = graphql`
     }
     mdx(slug: { eq: $slug }) {
       body
+      excerpt(pruneLength: 160)
       frontmatter {
         title
         description
