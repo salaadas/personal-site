@@ -4,23 +4,27 @@ import React from 'react';
 import Layout from '../components/layout';
 import { rhythm, scale } from '../utils/typography';
 
-const BlogPosts = (data, { previous, next }) => {
-  const { body, frontmatter } = data.data.mdx;
+const BlogPosts = ({ data, location }) => {
+  const post = data.mdx;
+  const siteTitle = data.site.siteMetadata?.title || `Title`;
 
   return (
-    <Layout>
+    <Layout location={location} title={siteTitle}>
       <Link to="/">🏠 ( . -.)</Link>
       <article>
         <header>
-          <h1>{frontmatter.title}</h1>
+          <h1>{post.frontmatter.title}</h1>
           <p>
-            📩<span className="italic">&gt;&gt; {frontmatter.description}</span>
+            📩
+            <span className="italic">
+              &gt;&gt; {post.frontmatter.description}
+            </span>
           </p>
-          <p style={styles.tag}>{frontmatter.date}</p>
-          <p style={styles.tag}>{frontmatter.category}</p>
+          <p style={styles.tag}>{post.frontmatter.date}</p>
+          <p style={styles.tag}>{post.frontmatter.category}</p>
         </header>
         <section>
-          <MDXRenderer>{body}</MDXRenderer>
+          <MDXRenderer>{post.body}</MDXRenderer>
         </section>
       </article>
     </Layout>
@@ -43,6 +47,11 @@ const styles = {
 
 export const pageQuery = graphql`
   query PostsBySlugs($slug: String!) {
+    site {
+      siteMetadata {
+        title
+      }
+    }
     mdx(slug: { eq: $slug }) {
       body
       frontmatter {

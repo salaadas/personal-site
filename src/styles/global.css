@@ -5,3 +5,7 @@
 .link {
   @apply underline decoration-2 decoration-sky-600 hover:decoration-blue-400;
 }
+
+.linked-header {
+  @apply shadow-none;
+}

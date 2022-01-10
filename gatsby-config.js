@@ -6,12 +6,6 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: 'gatsby-plugin-mdx',
-      options: {
-        extensions: [`.md`, `.mdx`],
-      },
-    },
-    {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: `blogs`,
@@ -26,16 +20,18 @@ module.exports = {
       },
     },
     {
-      resolve: 'gatsby-transformer-remark',
+      resolve: 'gatsby-plugin-mdx',
       options: {
-        plugins: [
+        extensions: [`.md`, `.mdx`],
+        gatsbyRemarkPlugins: [
           {
-            resolve: 'gatsby-remark-images',
+            resolve: `gatsby-remark-autolink-headers`,
             options: {
-              maxWidth: 690,
-              showCaptions: true,
+              className: `linked-header`,
             },
           },
+          'gatsby-remark-prismjs',
+          'gatsby-remark-copy-linked-files',
           {
             resolve: 'gatsby-remark-video',
             options: {
@@ -50,36 +46,19 @@ module.exports = {
             },
           },
           {
+            resolve: 'gatsby-remark-images',
+            options: {
+              maxWidth: 690,
+              showCaptions: true,
+            },
+          },
+          {
             resolve: `gatsby-remark-responsive-iframe`,
             options: {
               wrapperStyle: `margin-bottom: 1.0725rem`,
             },
           },
-          {
-            resolve: `gatsby-remark-autolink-headers`,
-            options: {
-              className: 'linked-header',
-            },
-          },
-          'gatsby-remark-copy-linked-files',
           'gatsby-remark-smartypants',
-          {
-            resolve: `gatsby-remark-prismjs`,
-            options: {
-              classPrefix: 'language-',
-              inlineCodeMarker: null,
-              aliases: {},
-              showLineNumbers: false,
-              noInlineHighlight: false,
-              languageExtensions: [],
-              prompt: {
-                user: 'root',
-                host: 'localhost',
-                global: false,
-              },
-              escapeEntities: {},
-            },
-          },
         ],
       },
     },

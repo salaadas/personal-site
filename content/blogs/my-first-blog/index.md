@@ -18,6 +18,10 @@ const MyBlog = () => (
 );
 ```
 
+```python
+print('hello world')
+```
+
 ## This is inteded for fun, ofc 🥱
 
 I will mainly be posting images that I took
