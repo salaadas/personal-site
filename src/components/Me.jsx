@@ -30,6 +30,13 @@ const Me = () => {
         alt="My Avatar"
       />
       <p>I'm salaadas and I'm {new Date().getFullYear() - 2005} years old</p>
+      <p>
+        &gt;&gt; <a href="https://github.com/salaadas">github</a> &gt;&gt;{' '}
+        <a href="https://www.youtube.com/playlist?list=PLTEvdy7cOEn4FDXp4WGyb8aRI5w7VRQW9">
+          playlist
+        </a>{' '}
+        &gt;&gt;
+      </p>
     </div>
   );
 };
