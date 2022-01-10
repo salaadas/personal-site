@@ -1,3 +1,10 @@
+---
+title: Ngôn ngữ không lời
+description: Tóm tắt từ truyện trên đài
+category: linguistics
+date: 2022-01-10
+---
+
 # Ngôn ngữ không lời - nhà văn người Nigeria
 
 ## Khái quát

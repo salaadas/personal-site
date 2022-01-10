@@ -22,7 +22,7 @@ const MyBlog = () => (
 print('hello world')
 ```
 
-## This is inteded for fun, ofc 🥱
+## This is intended for fun, ofc 🥱
 
 I will mainly be posting images that I took
 
