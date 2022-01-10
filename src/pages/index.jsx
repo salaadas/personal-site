@@ -27,22 +27,21 @@ const Index = ({ data, location }) => {
 export default Index;
 
 export const pageQuery = graphql`
-  {
-    site {
-      siteMetadata {
-        title
-        description
-      }
-    }
-
-    allMdx {
-      nodes {
-        slug
-        frontmatter {
-          title
-          description
-        }
-      }
-    }
-  }
+	{
+	  site {
+		siteMetadata {
+		  title
+		  description
+		}
+	  }
+	  allMdx(sort: {fields: frontmatter___date, order: DESC}) {
+		nodes {
+		  slug
+		  frontmatter {
+			title
+			description
+		  }
+		}
+	  }
+	}
 `;
