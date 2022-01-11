@@ -5,12 +5,10 @@ import { graphql, useStaticQuery } from 'gatsby';
 const Me = () => {
   const data = useStaticQuery(graphql`
     {
-      file(relativePath: { regex: "/kagome.jpeg/" }) {
+      file(relativePath: { regex: "/IMG_0722.JPG/" }) {
         childImageSharp {
           gatsbyImageData(
-            layout: FIXED
-            width: 300
-            height: 300
+            layout: FULL_WIDTH
             transformOptions: { fit: COVER, cropFocus: CENTER }
           )
         }
