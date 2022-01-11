@@ -48,7 +48,8 @@ const Me = () => {
           |{' '}
           <Link className="link" to="/blogs">
             blogs
-          </Link>
+          </Link>{' '}
+          |
         </p>
       </div>
     </div>
