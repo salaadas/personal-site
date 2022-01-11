@@ -5,7 +5,7 @@ import { graphql, Link, useStaticQuery } from 'gatsby';
 const Me = () => {
   const data = useStaticQuery(graphql`
     {
-      file(relativePath: { regex: "/IMG_0722.JPG/" }) {
+      file(relativePath: { regex: "/catnip.jpeg/" }) {
         childImageSharp {
           gatsbyImageData(
             layout: FULL_WIDTH
