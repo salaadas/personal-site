@@ -24,7 +24,7 @@ a {
 }
 
 .link {
-  @apply underline decoration-2 decoration-sky-600 hover:decoration-sky-400;
+  @apply underline decoration-1 decoration-sky-600 hover:decoration-sky-400;
 }
 
 a.linked-header {
