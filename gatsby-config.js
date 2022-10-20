@@ -4,7 +4,7 @@ module.exports = {
     description: 'Personal blog of my studying/daily life',
     author: 'Tran Duy Thuc',
     image: `/lone_cypress.jpg`,
-      siteUrl: `https://salaadas.vercel.app`,
+    siteUrl: `https://salaadas.vercel.app`,
   },
   plugins: [
     {
