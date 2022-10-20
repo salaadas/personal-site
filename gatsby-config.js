@@ -1,8 +1,10 @@
 module.exports = {
   siteMetadata: {
-    title: `salaadas's personal site`,
-    description: 'The dumpster fire for all things content',
-    author: 'salaadas',
+    title: `Tran Duy Thuc's personal site`,
+    description: 'Personal blog of my studying/daily life',
+    author: 'Tran Duy Thuc',
+    image: `/lone_cypress.jpg`,
+      siteUrl: `https://salaadas.vercel.app`,
   },
   plugins: [
     {
