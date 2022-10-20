@@ -22,7 +22,7 @@ const Blogs = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title;
   const [blogs] = useState(groupBlogsByYear(data.allMdx.nodes));
 
-  console.log(blogs);
+  // console.log(blogs);
 
   return (
     <Layout location={location} title={siteTitle}>

@@ -34,9 +34,9 @@ const Me = () => {
             I'm Thuc (salaadas) and I'm {new Date().getFullYear() - 2005} years old
         </p>
         <p>
-          <a className="link" href="https://github.com/salaadas">
-            github
-          </a>{' '}
+          <Link className="link" href="/about">
+            about
+          </Link>{' '}
           //{' '}
 
           <Link className="link" href="/blogs">
