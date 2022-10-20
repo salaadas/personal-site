@@ -43,11 +43,6 @@ const Me = () => {
             blogs
           </Link>{' '}
           //{' '}
-          
-          <a className="link" href="https://github.com/salaadas">
-            github
-          </a>{' '}
-          //{' '}
 
           <a
             className="link"
