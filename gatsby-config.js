@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Tran Duy Thuc's personal site`,
+    title: `TRAN DUY THUC`,
     description: 'Personal blog of my studying/daily life',
     author: 'Tran Duy Thuc',
     image: `/lone_cypress.jpg`,

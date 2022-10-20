@@ -31,25 +31,31 @@ const Me = () => {
       />
       <div className="text-center">
         <p className="italic">
-          I'm salaadas and I'm {new Date().getFullYear() - 2005} years old
+            I'm Thuc (salaadas) and I'm {new Date().getFullYear() - 2005} years old
         </p>
         <p>
-          |{' '}
           <a className="link" href="https://github.com/salaadas">
             github
           </a>{' '}
-          |{' '}
+          //{' '}
+
+          <Link className="link" href="/blogs">
+            blogs
+          </Link>{' '}
+          //{' '}
+          
+          <a className="link" href="https://github.com/salaadas">
+            github
+          </a>{' '}
+          //{' '}
+
           <a
             className="link"
             href="https://www.youtube.com/playlist?list=PLTEvdy7cOEn4FDXp4WGyb8aRI5w7VRQW9"
           >
             playlist
-          </a>{' '}
-          |{' '}
-          <Link className="link" to="/blogs">
-            blogs
-          </Link>{' '}
-          |
+          </a>
+
         </p>
       </div>
     </div>
