@@ -6,7 +6,7 @@ html {
   @apply bg-[#1f1f29];
 }
 
-p {
+p, li {
   @apply text-sky-50;
 }
 
