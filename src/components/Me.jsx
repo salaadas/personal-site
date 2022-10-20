@@ -25,10 +25,11 @@ const Me = () => {
 
   return (
     <div>
-      <GatsbyImage
-        image={data.file.childImageSharp.gatsbyImageData}
-        alt="My Avatar"
-      />
+        <GatsbyImage
+          image={data.file.childImageSharp.gatsbyImageData}
+          alt="My Avatar"
+          style={styles.img}  
+        />
       <div className="text-center">
         <p className="italic">
             I'm Thuc (salaadas) and I'm {new Date().getFullYear() - 2005} years old
@@ -58,3 +59,15 @@ const Me = () => {
 };
 
 export default Me;
+
+const styles = {
+  img: {
+      display: `block`,
+      marginTop: 0,
+      marginBottom: 0,
+      width: `auto`,
+      height: 400,
+      marginLeft: `auto`,
+      marginRight: `auto`,
+  },
+};

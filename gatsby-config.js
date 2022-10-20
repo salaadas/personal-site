@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: `TRAN DUY THUC`,
-    description: 'Personal blog of my studying/daily life',
-    author: 'Tran Duy Thuc',
+    description: `Personal blog of my studying and daily life`,
+    author: `Tran Duy Thuc`,
     image: `/lone_cypress.jpg`,
     siteUrl: `https://salaadas.vercel.app`,
   },
