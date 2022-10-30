@@ -1,7 +1,7 @@
 ---
 title: Ngôn ngữ không lời - của nhà văn người Nigeria
 description: Tóm tắt từ truyện trên đài
-category: linguistics
+category: vietnamese
 date: 2022-01-10
 ---
 
