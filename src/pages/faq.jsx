@@ -60,7 +60,7 @@ const FAQ = ({ data, location }) => {
 						<p>vietnamese, english</p>
 
 						<p><u><b>ok, what about programming languages?</b></u></p>
-						<p>ok ok :^) c/c++, javascript/typescript, python, and currently learning haskell</p>
+						<p>ok ok :^) c/c++, javascript/typescript, python, pascal, nim, and currently learning haskell</p>
 
 						<p><u><b>thank you, is there anything more you want to say?</b></u></p>
 						<p>oh, if you have time, there is a blog section where I seldom (will be more often) post about random stuff</p>
