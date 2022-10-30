@@ -34,8 +34,8 @@ const BlogPosts = ({ data, location, pageContext }) => {
           <MDXRenderer>{post.body}</MDXRenderer>
         </section>
       </article>
-			<span style={styles.left}>{prev && <Link to={home.concat(prev)}>Previous ⏪</Link>}</span>
-			<span style={styles.right}>{next && <Link to={home.concat(next)}>Next ⏩</Link>}</span>
+			<span style={styles.left}>{prev && <Link to={home.concat(prev)}>⏪ {prev}</Link>}</span>
+			<span style={styles.right}>{next && <Link to={home.concat(next)}>{next} ⏩</Link>}</span>
     </Layout>
   );
 };
