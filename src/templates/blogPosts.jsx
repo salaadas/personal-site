@@ -5,9 +5,11 @@ import Layout from '../components/layout';
 import Seo from '../components/seo';
 import { rhythm, scale } from '../utils/typography';
 
-const BlogPosts = ({ data, location }) => {
+const BlogPosts = ({ data, location, pageContext }) => {
+	const {next, prev} = pageContext;
   const post = data.mdx;
   const siteTitle = data.site.siteMetadata?.title || `Title`;
+	const home = "/blogs/";
 
   return (
     <Layout location={location} title={siteTitle}>
@@ -15,7 +17,7 @@ const BlogPosts = ({ data, location }) => {
         title={post.frontmatter.title}
         description={post.frontmatter.description || post.excerpt}
       />
-      <Link to="/">🏠 ( . -.)</Link>
+			<Link to={home}>🏠 Index ( . -.)</Link>
       <article>
         <header>
           <h1>{post.frontmatter.title}</h1>
@@ -32,6 +34,8 @@ const BlogPosts = ({ data, location }) => {
           <MDXRenderer>{post.body}</MDXRenderer>
         </section>
       </article>
+			<span style={styles.left}>{prev && <Link to={home.concat(prev)}>Previous ⏪</Link>}</span>
+			<span style={styles.right}>{next && <Link to={home.concat(next)}>Next ⏩</Link>}</span>
     </Layout>
   );
 };
@@ -48,6 +52,12 @@ const styles = {
     backgroundColor: '#a2a2a2',
     marginRight: rhythm(1 / 4),
   },
+	left: {
+			float: `left`
+	},
+	right: {
+			float: `right`
+	}
 };
 
 export const pageQuery = graphql`

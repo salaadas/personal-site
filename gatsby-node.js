@@ -11,7 +11,7 @@ exports.createPages = async ({ actions, graphql }) => {
 
   const result = await graphql(`
     {
-      allMdx {
+      allMdx (sort: {order: ASC, fields: [frontmatter___date]}) {
         nodes {
           slug
           frontmatter {
@@ -28,12 +28,14 @@ exports.createPages = async ({ actions, graphql }) => {
 
   const posts = result.data.allMdx.nodes;
 
-  posts.forEach((post) => {
+		posts.forEach((post, index) => {
     createPage({
       path: `/blogs/${post.slug}`,
       component: blogPost,
       context: {
-        slug: post.slug,
+					slug: post.slug,
+					prev: index === 0 ? null : posts[index - 1].slug,
+					next: index === (posts.length - 1) ? null : posts[index + 1].slug
       },
     });
   });

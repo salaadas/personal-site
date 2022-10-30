@@ -1,5 +1,5 @@
 import { graphql, Link } from 'gatsby';
-import React, { useState } from 'react';
+import React from 'react';
 import Layout from '../components/layout';
 import { GatsbyImage } from 'gatsby-plugin-image';
 import Seo from '../components/seo';
@@ -21,7 +21,7 @@ const About = ({ data, location }) => {
       />
 
       <p>
-        Tran Duy Thuc is a Senior student attending the VNU - HCM High School for the Gifted. Thuc works including researching computer sciences applications and robotics. 
+          Tran Duy Thuc is a Senior student attending the VNU - HCM High School for the Gifted. Thuc works including researching computer sciences applications and robotics. Besides technology, he is also fond of playing drums. He has been playing it since grade 6 and has been volunteering in Youths Forums of International Emmanuel Community for 5 years. 
       </p>
 
     </Layout>

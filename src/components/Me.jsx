@@ -40,6 +40,12 @@ const Me = () => {
           </Link>{' '}
           //{' '}
 
+          <Link className="link" href="/faq">
+            faq
+          </Link>{' '}
+          //{' '}
+
+
           <Link className="link" href="/blogs">
             blogs
           </Link>{' '}
