@@ -32,7 +32,7 @@ const Me = () => {
         />
       <div className="text-center">
         <p className="italic">
-            I'm Thuc (salaadas) and I'm {new Date().getFullYear() - 2005} years old
+            I'm Thuc and I'm {new Date().getFullYear() - 2005} years old
         </p>
         <p>
           <Link className="link" href="/about">
