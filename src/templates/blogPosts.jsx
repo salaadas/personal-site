@@ -17,7 +17,7 @@ const BlogPosts = ({ data, location, pageContext }) => {
         title={post.frontmatter.title}
         description={post.frontmatter.description || post.excerpt}
       />
-			<Link to={home}>🏠 Index ( . -.)</Link>
+			<Link className="navigate-btn" to={home}>🏠 Index ( . -.)</Link>
       <article>
         <header>
           <h1>{post.frontmatter.title}</h1>
@@ -34,8 +34,8 @@ const BlogPosts = ({ data, location, pageContext }) => {
           <MDXRenderer>{post.body}</MDXRenderer>
         </section>
       </article>
-			<span style={styles.left}>{prev && <Link to={home.concat(prev)}>⏪ {prev}</Link>}</span>
-			<span style={styles.right}>{next && <Link to={home.concat(next)}>{next} ⏩</Link>}</span>
+			<span style={styles.left}>{prev && <Link className="navigate-btn" to={home.concat(prev)}>⏪ {prev}</Link>}</span>
+			<span style={styles.right}>{next && <Link className="navigate-btn" to={home.concat(next)}>{next} ⏩</Link>}</span>
     </Layout>
   );
 };

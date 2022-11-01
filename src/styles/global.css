@@ -27,6 +27,20 @@ a {
   @apply underline decoration-1 decoration-sky-600 hover:decoration-sky-400;
 }
 
+.navigate-btn {
+  @apply hover:bg-[#db55db] hover:text-[#fffdd0] hover:rounded-sm hover:border-8;
+}
+
 a.linked-header {
   @apply shadow-none fill-sky-100;
+}
+
+::-moz-selection { /* Code for Firefox */
+  background: #fffdd0;
+  color: #db55db;
+}
+
+::selection {
+  background: #fffdd0;
+  color: #db55db;
 }
