@@ -6,15 +6,20 @@ import Seo from '../components/seo';
 
 const groupBlogsByYear = (nodes) => {
   return nodes.reduce((list, node) => {
-    const date = node.frontmatter.date.split(', ');
-    const newList = { ...list };
-    if (newList.hasOwnProperty(date[1])) {
-      newList[date[1]].push(node);
-    } else {
-      newList[date[1]] = [node];
-    }
 
-    return newList;
+		if (node.frontmatter.date) {
+				const date = node.frontmatter.date.split(', ');
+				const newList = { ...list };
+				if (newList.hasOwnProperty(date[1])) {
+						newList[date[1]].push(node);
+				} else {
+						newList[date[1]] = [node];
+				}
+				return newList;
+		} else {
+				return list;
+		}
+
   }, {});
 };
 

@@ -2,6 +2,35 @@
 @tailwind components;
 @tailwind utilities;
 
+/* for image caption */
+.img-caption {
+  display: block;
+  text-align: center;
+  background: #181818;
+  @apply text-[#db55db];
+  @apply text-sm;
+}
+
+img {
+  pointer-events: none;
+}
+
+blockquote > p {
+    @apply text-sm;
+    @apply text-[#93e0e3];    
+}
+
+/* dialogues between reader and author(me) */
+.reader {
+    @apply text-sm;
+    @apply text-[#dfaf8f]
+}
+
+.author {
+    @apply text-sm;
+    @apply text-[#f0dfaf]
+}
+
 html {
   @apply bg-[#1f1f29];
 }

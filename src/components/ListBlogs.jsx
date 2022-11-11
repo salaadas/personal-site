@@ -4,7 +4,7 @@ import { Link } from 'gatsby';
 const ListBlogs = ({ list }) => {
   return (
     <>
-      {Object.keys(list).map((b) => (
+      {Object.keys(list).sort(function(a, b) { return b - a; }).map((b) => ( // sort by year (newest to oldest)
         <div key={b} className="w-full">
           <h2 className="pl-1 text-lg font-semibold">{b}</h2>
           <ul className="list-none">
