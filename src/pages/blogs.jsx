@@ -58,6 +58,7 @@ export const pageQuery = graphql`
           description
           category
           date(formatString: "MMM DD, YYYY")
+          tags
         }
       }
     }

@@ -38,7 +38,7 @@ module.exports = {
           {
             resolve: 'gatsby-remark-video',
             options: {
-              width: '100%',
+              maxWidth: 690,
               height: 'auto',
               preload: 'auto',
               muted: true,
@@ -78,5 +78,6 @@ module.exports = {
         pathToConfigModule: `${__dirname}/src/utils/typography`,
       },
     },
+		// `gatsby-read-time-estimate`,
   ],
 };

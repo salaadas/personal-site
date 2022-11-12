@@ -37,19 +37,16 @@ const Me = () => {
         <p>
           <Link className="link" href="/about">
             about
-          </Link>{' '}
-          //{' '}
+          </Link>{' // '}
 
           <Link className="link" href="/faq">
             faq
-          </Link>{' '}
-          //{' '}
+          </Link>{' // '}
 
 
           <Link className="link" href="/blogs">
             blogs
-          </Link>{' '}
-          //{' '}
+          </Link>{' // '}
 
           <a
             className="link"

@@ -21,14 +21,22 @@ const BlogPosts = ({ data, location, pageContext }) => {
       <article>
         <header>
           <h1>{post.frontmatter.title}</h1>
-          <p>
+					{
+					post.frontmatter.description && <><p className="desc">
             📩
             <span className="italic">
               &gt;&gt; {post.frontmatter.description}
             </span>
-          </p>
+					</p>
+					<p className="italic">
+							{"=".repeat(post.frontmatter.description.trim().length)}
+					</p>																				
+					</>
+					}
           <p style={styles.tag}>{post.frontmatter.date}</p>
           <p style={styles.tag}>{post.frontmatter.category}</p>
+					<br/>
+					<p style={styles.time}>A {post.timeToRead} minute read.</p>
         </header>
         <section>
           <MDXRenderer>{post.body}</MDXRenderer>
@@ -49,9 +57,17 @@ const styles = {
     display: `inline`,
     marginBottom: rhythm(1),
     borderRadius: 5,
-    backgroundColor: '#a2a2a2',
+    backgroundColor: '#828282',
     marginRight: rhythm(1 / 4),
   },
+  time: {
+    ...scale(-1 / 7),
+		marginBottom: rhythm(1),
+		color: '#db55db'
+	},
+	desc: {
+		marginBottom: rhythm(1),		
+	},
 	left: {
 			float: `left`
 	},
@@ -76,6 +92,7 @@ export const pageQuery = graphql`
         category
         date(formatString: "MMM DD, YYYY")
       }
+      timeToRead
     }
   }
 `;

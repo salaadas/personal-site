@@ -18,10 +18,25 @@ const ListBlogs = ({ list }) => {
                     {content.frontmatter.title}
                   </h3>
                 </Link>
-                <small className="text-sky-50 mt-2 block italic">
-                  #{content.frontmatter.category}
-                </small>
-              </li>
+								<br/>
+								{
+										(content.frontmatter.tags) ? (
+												content.frontmatter.tags.map((tag, idx) => {
+														return (
+																<small className="text-sky-50 mt-2 inline italic">
+																		#{tag}{idx == content.frontmatter.tags.length - 1 ? '' : ', '}
+																</small>
+														);
+												})
+										) : (
+												content.frontmatter.category && (
+														<small className="text-sky-50 mt-2 inline italic">
+																#{content.frontmatter.category}
+														</small>
+												)
+										)
+								}
+							</li>
             ))}
           </ul>
         </div>

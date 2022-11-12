@@ -43,6 +43,7 @@
     "react-dom": "^17.0.1",
     "react-helmet": "^6.1.0",
     "react-typography": "^0.16.20",
+    "read-time-estimate": "^0.0.3",
     "tailwindcss": "^3.0.12",
     "typeface-merriweather": "^1.1.13",
     "typography": "^0.16.21",

@@ -23,12 +23,12 @@ blockquote > p {
 /* dialogues between reader and author(me) */
 .reader {
     @apply text-sm;
-    @apply text-[#dfaf8f]
+    @apply text-[#b8bb26]
 }
 
 .author {
     @apply text-sm;
-    @apply text-[#f0dfaf]
+    @apply text-[#dc869d]
 }
 
 html {
