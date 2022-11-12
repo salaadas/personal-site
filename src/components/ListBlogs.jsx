@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Link } from 'gatsby';
 
@@ -24,7 +25,7 @@ const ListBlogs = ({ list }) => {
 												content.frontmatter.tags.map((tag, idx) => {
 														return (
 																<small className="text-sky-50 mt-2 inline italic">
-																		#{tag}{idx == content.frontmatter.tags.length - 1 ? '' : ', '}
+																		#{tag}{idx === content.frontmatter.tags.length - 1 ? '' : ', '}
 																</small>
 														);
 												})
