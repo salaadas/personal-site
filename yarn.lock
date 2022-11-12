@@ -5788,7 +5788,7 @@
   dependencies:
     "@babel/runtime" "^7.15.4"
 
-"gatsby-plugin-sharp@^4.0.0-next", "gatsby-plugin-sharp@^4.4.0":
+"gatsby-plugin-sharp@^4.0.0-next", "gatsby-plugin-sharp@^4.6.0":
   "integrity" "sha512-wVs8F9zLeiLf02yLi8vjse1vqSrZsx2u3RsMhoSv1bEinyaI5bcoLZ7mMJCsEeZe2G9mvNrPi4Ymhh/YzgxYCg=="
   "resolved" "https://registry.npmjs.org/gatsby-plugin-sharp/-/gatsby-plugin-sharp-4.24.0.tgz"
   "version" "4.24.0"
@@ -9776,11 +9776,6 @@
   "version" "1.0.0"
   dependencies:
     "pify" "^2.3.0"
-
-"read-time-estimate@^0.0.3":
-  "integrity" "sha512-TF87eHTuEyRtu/mwnQE8FoZYHpsN1Oj+U/oROL5nrsoEWsh/iGhBzkV50N6DdPEqZ9Jh2PSZk1ZA7KMucgb+ng=="
-  "resolved" "https://registry.npmjs.org/read-time-estimate/-/read-time-estimate-0.0.3.tgz"
-  "version" "0.0.3"
 
 "read@^1.0.7":
   "integrity" "sha512-rSOKNYUmaxy0om1BNjMN4ezNT6VKK+2xF4GBhc81mkH7L60i6dp8qPYrkndNLT3QPphoII3maL9PVC9XmhHwVQ=="
