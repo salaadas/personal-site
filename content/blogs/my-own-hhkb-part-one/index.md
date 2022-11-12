@@ -6,7 +6,7 @@ date: "2022-11-12"
 ---
 
 <p>
-    <img src="./cover.jpg"/>
+    <img src="./og-hhkb.jpg"/>
     <em classname="img-caption">The Happy Hacking Keyboard -- also called HHKB -- with a whopping price tag of ~$210 USD for the base model</em>
 </p>
 
