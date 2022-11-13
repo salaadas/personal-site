@@ -6,7 +6,7 @@ date: "2022-11-12"
 ---
 
 <p>
-    <img src="og-hhkb.jpg"/>
+    <img src="og-hhkb.png"/>
     <em classname="img-caption">The Happy Hacking Keyboard -- also called HHKB -- with a whopping price tag of ~$210 USD for the base model</em>
 </p>
 
@@ -20,7 +20,7 @@ If you haven't already known, Emacs is similar to Vim in that uses combinations 
 
 What makes the HHKB keyboard more special than ordinary ones is that it houses a *Unix* layout, take a look for yourself:
 <p>
-    <img src="unix-layout.png"/>
+    <img src="unix-layout.jpg"/>
     <em classname="img-caption">The Unix layout with 60 keys. Ctrl, Alt, Backspace placements have been changed for reachability</em>
 </p>
 
@@ -54,7 +54,7 @@ Additionally, if you are interested in designing one for yourself, the [wiki sec
 This project is also a gift for my brother, who loves watching anime. I have only watched a couple, but I think it would be nice to have some graphics on the pcb and plate for him to enjoy building his first keyboard more.
 
 <p>
-    <img src="kicad-pcb.png"/>
+    <img src="kicad-pcb.jpg"/>
     <em classname="img-caption">Pcb with Rei Ayanami from Neon Genesis Evangelion graphics. Beautiful, isn't she?</em>
 </p>
 
@@ -66,7 +66,7 @@ This project is also a gift for my brother, who loves watching anime. I have onl
 Now for the switch plate:
 
 <p>
-    <img src="kicad-plate.png"/>
+    <img src="kicad-plate.jpg"/>
     <em classname="img-caption">I wanted to support multiple layouts like ISO enter, split left shift and full size backspace, ...; hence the wide cuts in some parts of the plate</em>
 </p>
 
