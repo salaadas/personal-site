@@ -5,10 +5,10 @@ tags: ["keyboard", "part one"]
 date: "2022-11-12"
 ---
 
-<!-- <p> -->
-<!--     <img src="./og-hhkb.jpg"/> -->
-<!--     <em classname="img-caption">The Happy Hacking Keyboard -- also called HHKB -- with a whopping price tag of ~$210 USD for the base model</em> -->
-<!-- </p> -->
+<p>
+    <img src="og-hhkb.jpg"/>
+    <em classname="img-caption">The Happy Hacking Keyboard -- also called HHKB -- with a whopping price tag of ~$210 USD for the base model</em>
+</p>
 
 ## Motives
 
@@ -20,7 +20,7 @@ If you haven't already known, Emacs is similar to Vim in that uses combinations 
 
 What makes the HHKB keyboard more special than ordinary ones is that it houses a *Unix* layout, take a look for yourself:
 <p>
-    <img src="./unix-layout.png"/>
+    <img src="unix-layout.png"/>
     <em classname="img-caption">The Unix layout with 60 keys. Ctrl, Alt, Backspace placements have been changed for reachability</em>
 </p>
 
@@ -54,19 +54,19 @@ Additionally, if you are interested in designing one for yourself, the [wiki sec
 This project is also a gift for my brother, who loves watching anime. I have only watched a couple, but I think it would be nice to have some graphics on the pcb and plate for him to enjoy building his first keyboard more.
 
 <p>
-    <img src="./kicad-pcb.png"/>
+    <img src="kicad-pcb.png"/>
     <em classname="img-caption">Pcb with Rei Ayanami from Neon Genesis Evangelion graphics. Beautiful, isn't she?</em>
 </p>
 
 <p>
-    <img src="./render-pcb.png"/>
+    <img src="render-pcb.png"/>
     <em classname="img-caption">"We'll do the rest when you get back."</em>
 </p>
 
 Now for the switch plate:
 
 <p>
-    <img src="./kicad-plate.png"/>
+    <img src="kicad-plate.png"/>
     <em classname="img-caption">I wanted to support multiple layouts like ISO enter, split left shift and full size backspace, ...; hence the wide cuts in some parts of the plate</em>
 </p>
 
@@ -79,7 +79,7 @@ Until I confirm that the final keyboard is working properly, I will update this 
 >Ahh keycaps keycaps, how pretty they are...
 
 <p>
-    <img src="./gmk-heavy-industry.jpg"/>
+    <img src="gmk-heavy-industry.jpg"/>
     <em classname="img-caption">Here is the set I went with this keyboard -- the GMK Heavy Industry</em>
 </p>
 
@@ -88,7 +88,7 @@ Until I confirm that the final keyboard is working properly, I will update this 
 The switches I went with are the Gateron Yellows. At a very cheap price, they offer you a smooth travel and nice weighting for programming or prolonged typing sessions.
 
 <p>
-    <img src="./gateron.jpg"/>
+    <img src="gateron.jpg"/>
     <em classname="img-caption">Close up look of the switch</em>
 </p>
 

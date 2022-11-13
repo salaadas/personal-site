@@ -21,6 +21,9 @@ module.exports = {
         path: `${__dirname}/content/assets`,
       },
     },
+    'gatsby-plugin-sharp',
+    'gatsby-plugin-image',
+    'gatsby-transformer-sharp',
     {
       resolve: 'gatsby-plugin-mdx',
       options: {
@@ -66,9 +69,6 @@ module.exports = {
         ],
       },
     },
-    'gatsby-plugin-image',
-    'gatsby-plugin-sharp',
-    'gatsby-transformer-sharp',
     `gatsby-plugin-postcss`,
     'gatsby-plugin-twitter',
     `gatsby-plugin-react-helmet`,
@@ -78,6 +78,5 @@ module.exports = {
         pathToConfigModule: `${__dirname}/src/utils/typography`,
       },
     },
-		// `gatsby-read-time-estimate`,
   ],
 };
