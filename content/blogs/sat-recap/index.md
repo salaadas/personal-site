@@ -12,7 +12,7 @@ date: "2022-12-04"
 
 # Past, Present, Yesterday
 
-I took the SAT, finally and for the first time, tho I have not gotten a sound sleep for the past two days even when I promised to one that I would. Constantly waking up at 4:30 in the morning, just like what I did on the 3rd of December. I felt that I did well, however. But the anxiety started to kick in today, a day after my D-day. Is it the aftermath? Have I truly done well? I don’t know. My next 2 weeks will probably be longer than all of the past fortnights.
+I took the SAT, finally and for the first time, tho I have not gotten a sound sleep for the past two days eventhough I promised to one that I would. Constantly waking up at 4:30 in the morning, just like what I did on the 3rd of December. I felt that I did well, however. But the anxiety started to kick in today, a day after my D-day. Is it the aftermath? Have I truly done well? I don’t know. My next 2 weeks will probably be longer than all of the past fortnights.
 
 In the back of my mind, there are lingering thoughts that deject me. It makes me recall the initial experience with the scholastic test I had 2 years ago:
 
