@@ -20,7 +20,7 @@ It was an ordinary afternoon at school, I was distracted from the last class, ea
 
 ><span classname="reader">“What is this called, Khoi?”, I asked, and without waiting for him to respond, followed up with the use of such test.</span>
 
-><span classname="author">“That’s the SAT, I learning it tho, but still a noob at it”, he replied.</span>
+><span classname="author">“That’s the SAT, I'm learning it tho, but still a noob at it”, he replied.</span>
 
 I was surprised by the number of words in it because I haven’t read many books before to fully be comfortable looking at lots of texts. A little discouraged, but I inquired to work on some of the questions, thinking that my knowledge from my old Honors English class would help me out. It didn’t.
 
