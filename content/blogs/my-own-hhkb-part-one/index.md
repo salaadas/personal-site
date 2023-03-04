@@ -88,7 +88,7 @@ Until I confirm that the final keyboard is working properly, I will update this 
 The switches I went with are the Gateron Yellows. At a very cheap price, they offer you a smooth travel and nice weighting for programming or prolonged typing sessions.
 
 <p>
-    <img src="gateron.jpg"/>
+    <img src="gat.jpg"/>
     <em classname="img-caption">Close up look of the switch</em>
 </p>
 
