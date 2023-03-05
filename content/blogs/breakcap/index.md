@@ -55,7 +55,7 @@ Wait for me!! This site may change in the future but my daily writing will not c
 
 For my school, we're approaching the middle of the second semester exams. Meaning less time for soccer and more dense schedule. Ahah, but that won't deterred me from writing blog daily tho. I find it similar to meditation, and I could exercise my writing more!
 
-As for universities and application cycle, I'm waiting Middlebury and Swarthmore as well as UCF, Lafayette and a few others to release their decisions. I'm hope that I could attain a spot in a good school while keeping the cost under managed. And from the universities that I got into, I was mostly keen on Gettysburg, one of the admission officer who interviewed me was very nice and I wish to have chat with him around the campus one day. Still looking forward to having breakfast with you, Luke!! During the interviewed, we talked about school, yes, and my hobby, I also told him a few things about Social Engineering/Cyber Security (still learning it). Such fun, especially when that was on **Tet Holiday**. On that note, I shall discuss with you about my Tet's break and our school trip next.
+As for universities and application cycle, I'm waiting on Middlebury and Swarthmore as well as UCF, Lafayette and a few others to release their decisions. I'm hope that I could attain a spot in a good school while keeping the cost under managed. And from the universities that I got into, I was mostly keen on Gettysburg, one of the admission officer who interviewed me was very nice and I wish to have chat with him around the campus one day. Still looking forward to having breakfast with you, Luke!! During the interviewed, we talked about school, yes, and my hobby, I also told him a few things about Social Engineering/Cyber Security (still learning it). Such fun, especially when that was on **Tet Holiday**. On that note, I shall discuss with you about my Tet's break and our school trip next.
 
 To all admissions officers and school representatives, thank you so much for you time, dedication towards me, a 17-year-old who are applying to your insitutions. I wish you all have a good year and much love from Vietnam. Thank you for your responses to some of my childish questions, thank you for your time reading through what I wrote in my essay, and much thanks if you are reading this right now!!!
 
@@ -86,7 +86,7 @@ Recently, I made a few cookies. A fun experience considering I have never baked 
 
 ## End,
 
-To conclude this lengthy blog, I promise that I will keep up the daily blogging and will finish the blogs I wrote before. Today I haven't read any news but I will do later when I upload this blog. Thank you so much for your time and hope you had a good day!
+To conclude this lengthy blog, I promise that I will keep up daily blogging and will finish the blogs I wrote before. Today I haven't read any news but I will do later when I upload this blog. Thank you so much for your time and hope you had a good day!
 
 Yours,
 
