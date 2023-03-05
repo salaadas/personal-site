@@ -31,12 +31,7 @@ Overall, I was decently happy with the endproduct. Would give it a solid 11/10 f
 
 ## CAD (not PCB design) but Fusion360
 
-If you don't already know, it is essentially 3D Modelling, and is what those Mechanical Engineering Undergrads study:
-
-<p>
-    <img src="./hellokitty3d.jpg"/>
-    <em classname="img-caption">Keyboard I made with Fusion360</em>
-</p>
+If you don't already know, it is essentially 3D Modelling, and is what those Mechanical Engineering Undergrads study.
 
 After finishing the aforementioned keyboard above, I decided that I will do another keyboard, albeit in aluminium this time. And that will be the last one. As I don't have much money, I can't shill out a fortune (around $3xx or $4xx is what enthusiasts' projects will quote you for) on a piece of rectangle. Hence why I picked up on 3D Modelling skill. And to be frank, I did thought about double major slash minor in Mechanical Engineering after spending much time in designing stuffs.
 
@@ -52,6 +47,10 @@ Eversince the admissions cycle started around October and throughout the Q4 of 2
 
 Not much to say in this section. Though I have plans to occasionally post about some problems and how I tackle them as food for thoughts.
 
+Another that have bugged me quite alot is this blog. No, not the act of writing and publishing my thoughts onto the internet. Instead, it is how I structured and programmed this blog. For some reasons, I'm having troubles when attaching images to my site, as shown in the previous keyboard build log. I plan to do an overhaul from the internal and inners of it so that I can have a sustainable means of jotting my ideas down and push it online.
+
+Wait for me!! This site may change in the future but my daily writing will not change!!!!
+
 ## Studying / Admissions Results
 
 For my school, we're approaching the middle of the second semester exams. Meaning less time for soccer and more densed schedule. Ahah, but that won't deterred me from writing blog daily tho. I find it similar to meditation and I could exercise my writing more!
@@ -66,3 +65,28 @@ To all admissions officers and school representatives, thank you so much for you
     <img src="./tet.jpg"/>
     <em classname="img-caption">Illustration from Gettys Images</em>
 </p>
+
+In January, our school decided that a four-day-trip will be held as none was organized from the last 2 years. Me and the boys were eagered to explore and spend our moments at Dalat, where the trip was held in. And exceed our expectations, it was packed with memories. Not that the school did a good job. They did decent, but what made it home was: me, my friends. That's it! Although the food was cold, dry, and hard to swallow, although our usher was not at all enthusiastic, we had ton of fun (it was in fact so fun that I had thought of writing a blog about it on the day home, I did not because....I forgot why). Anyways, here are some of it before it is too late:
+
+- **Before I list any of it, thank you Trung (friend since grade 1), Trong, Minh, Thien, without you the trip wouldn't be as fun as it did. Will miss you alot when I go to uni.**
+- I went to the NET (Internet Cafe) for the first time. We also upsetted Huy Minh by telling our teacher we went to the NET and had to implement an Oscar-Level plan that day.
+- I got a chance to sleep in the same room as my friends. Much laughter, much fun!
+- Despite being bad at it, I still played soccer with them.
+- We attempted to escaped the Gong musical night (not sure if I imparted it well), but failed :^). Still, unforgotten memories.
+- We had a big fight over the dirty bathroom mat, which we had to pay $5 for the cleaning fee.
+- I got into 2 universities while we were on the trip.
+- I had an interview with Luke at Gettysburg on the day home.
+- And much more....
+
+For the Tet holiday, I was busy writing essay to NUS; however, I still alocated time to make Banh Chung with my family and a few other members in our Emmanuel Catholic Community. I visited grandparents just like any other year. This year felt particularly special since it may well be the last Tet I spent with my family if I continue higher education abroad. I got lots of Li xi, very grateful since I wanted to try out the stock market in 2023. Our family also went to the Nguyen Hue Walking street where they exhibited flowers and statues of the Cat. Well, it's been long enough that there are probably things that I forget about this Tet holiday, but the spirits is still there. Still Banh Chung, still Li xi, still Chuc Tet, still red and green, and still Thit Kho Trung!
+
+## At last, cooking!
+
+Recently, I made a few cookies. A fun experience considering I have never baked before! I learned that I'm not very hygenic when baking and how hard it is. I will try to make many more cakes in the future with mom and my sister. Thank you you two for *carefully* and *patiently* wait for me to churn the dough and shape the cookies. Should I make those Korean Fluffly Cakes next? What you do think?
+
+## End,
+
+To conclude this lengthy blog, I promise that I will keep up the daily blogging and will finish the blogs I wrote before. Today I haven't read any news but I will do later when I upload this blog. Thank you so much for your time and hope you had a good day!
+
+Yours,
+Thuc
