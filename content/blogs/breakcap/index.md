@@ -10,7 +10,7 @@ date: "2023-03-05"
     <em classname="img-caption">Illustration from Gettys Images</em>
 </p>
 
-IT'S BEEN A while, or should I say: too long, since my last blog post. As with anything, life moves on, and I still encounter loads of things I want to share on this platform. And what better way to celebrate this comeback other than giving a quick rundown on the past several months (my work, study, and forseeable plans).
+IT'S BEEN A while, or should I say: too long, since my last blog post. As with anything, life moves on, and I still encountered loads of things I wanted to share on this platform. And what better way to celebrate this comeback other than giving a quick rundown on the past several months (my work, study, and forseeable plans).
 
 You may, or may not, have noticed that my new formatting differs from that of the previous posts. Since December, I have picked up on reading daily (mostly on WIRED.com). And in the realm of reading, a few that I went through consists of *The Diary of a Young Girl*, *Don Quixote*, *Competitive Programming 3 by Steven Halim*. Reasons for this newly acquired habit is that: one, I long to write better, and two, to prepare myself for university (yes, seems absurd, but I was not the reading kid back then).
 
