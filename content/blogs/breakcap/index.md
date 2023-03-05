@@ -18,6 +18,11 @@ Without further ado, let me present what I had done so far:
 
 ## Keyboard(s)
 
+<p>
+    <img src="./noxary.jpg"/>
+    <em classname="img-caption">Noxary Valhalla, an enthusiasts' keyboard in the Alice layout</em>
+</p>
+
 From where I had left off in the last post (sorry, I did not have the time to continue another instalment of the keyboard series), I have finished it !!!!!!!!!!!!!!!!!!. Despite changing the keycaps and caught up in some problems, it is fully functional and types like any other keyboards. You can check it out here: **ATTACH THE IMGUR LINK, DO NOT FORGET THIS STUPID ME!**.
 
 I had to address a few things, however. One noteworthy issue is that the plate cutouts' were a tad too small; thus the switches could not fit in properly. **SOLUTION, I hear you asked?** I had to spend 3 days sand down each and every one of the hole laboriously by hand. Phewwwwww, such a time sinker. Another thing is that I had used 2 small acrylic pieces as the legs of the keyboard. They work well, just not the prettiest.
@@ -42,6 +47,11 @@ I have made quite a few keyboards during my break. Additionally, I'm starting to
 Do note that in the upcoming few days, I will upload them to my github. So if interested, please keep an eye out for my edits to this post as I will attach the link HERE once it is up.
 
 ## Programming
+
+<p>
+    <img src="./acm.jpg"/>
+    <em classname="img-caption">ACM-ICPC Logo</em>
+</p>
 
 Eversince the admissions cycle started around October and throughout the Q4 of 2022, I was busy studying SAT along writing essays. *Am I blaming those for my lack of time to do competitive programming?* No, and not in the slightest. So yes, I reunited with programming on the second of February, and have finished the book by Steven Halim to get my feet back in the water. Eversince, grinding problems has been my daily chore.
 
