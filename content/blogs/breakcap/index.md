@@ -31,7 +31,7 @@ Overall, I was decently happy with the end product. Would give it a solid 11/10 
 
 ## CAD (not PCB design), but Fusion360
 
-If you don't already know, it is essentially 3D Modeling, and is what those Mechanical Engineering undergrads study.
+If you don't already know, it is essentially 3D Modeling, and it is what those Mechanical Engineering undergrads study.
 
 After finishing the aforementioned keyboard above, I decided that I would do another keyboard, albeit in aluminium this time. And that will be the last one. As I don't have much money, I can't shill out a fortune (around $3xx or $4xx is what enthusiasts' projects will quote you for) on a piece of rectangle. Hence why I picked up on 3D Modeling skill. And to be frank, I did think about double major slash minor in Mechanical Engineering after spending much time designing stuff.
 
