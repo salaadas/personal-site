@@ -89,4 +89,5 @@ Recently, I made a few cookies. A fun experience considering I have never baked 
 To conclude this lengthy blog, I promise that I will keep up the daily blogging and will finish the blogs I wrote before. Today I haven't read any news but I will do later when I upload this blog. Thank you so much for your time and hope you had a good day!
 
 Yours,
+
 Thuc
