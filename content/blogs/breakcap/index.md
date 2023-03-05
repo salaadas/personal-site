@@ -34,7 +34,7 @@ Overall, I was decently happy with the endproduct. Would give it a solid 11/10 f
 If you don't already know, it is essentially 3D Modelling, and is what those Mechanical Engineering Undergrads study:
 
 <p>
-    <img src="./hellokitty3d.png"/>
+    <img src="./hellokitty3d.jpg"/>
     <em classname="img-caption">Keyboard I made with Fusion360</em>
 </p>
 
@@ -47,11 +47,6 @@ I have made quite a few keyboards during my break. Additionally, I'm starting to
 Do note that in the upcoming few days, I will upload them to my github. So if interested, please keep an eye out for my edits to this post as I will attach the link HERE once it is up.
 
 ## Programming
-
-<p>
-    <img src="./acm.jpg"/>
-    <em classname="img-caption">ACM-ICPC Logo</em>
-</p>
 
 Eversince the admissions cycle started around October and throughout the Q4 of 2022, I was busy studying SAT along writing essays. *Am I blaming those for my lack of time to do competitive programming?* No, and not in the slightest. So yes, I reunited with programming on the second of February, and have finished the book by Steven Halim to get my feet back in the water. Eversince, grinding problems has been my daily chore.
 
